@@ -124,3 +124,25 @@ header nav a:hover {
 .carrosel-filmes {
     margin-top: 5px;
 }
+
+#rodape {
+    text-align: center;
+    font-size: 10pt;
+    color: #888;
+
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+#rodape p {
+    margin-bottom: 5px;
+}
+
+#rodape a i {
+    color: #888;
+    font-size: 20px
+}
+
+#rodape a i:hover {
+    color: #b3b3b3;
+}
