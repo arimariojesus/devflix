@@ -52,6 +52,7 @@ header nav a:hover {
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0.40), rgba(0,0,0,.40) 30%), url('../img/capa-house.jpg');
     background-position-y: 20%;
+    background-position-x: center;
 
     height: 420px;
     background-size: cover;
@@ -117,6 +118,67 @@ header nav a:hover {
 
 .filme-principal .container {
     width: 40%;
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0,0,0,.60);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 300ms ease-in;
+    -moz-transition: opacity 300ms ease-in;
+    transition: opacity 300ms ease-in;
+    pointer-events: none;
+}
+
+.modal > div {
+    position: relative;
+    width: 600px;
+    top: 25%;
+    right: 25%;
+    bottom: 25%;
+    left: 25%;
+    padding: 15px 20px;
+    background: rgba(20, 20, 20, .8);
+    border-radius: 8px;
+}
+
+.modal div h3 {
+    margin-top: 10px;
+}
+
+.modal div {
+    font-size: 15px;
+}
+
+.fechar {
+    position: absolute;
+    width: 30px;
+    right: -15px;
+    top: -20px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 30px;
+    margin-top: 5px;
+    background: #91040c;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #fff;
+}
+
+.fechar:hover {
+    background: #bb040c;
+}
+
+.modal:target {
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .box-filme {

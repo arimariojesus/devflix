@@ -30,21 +30,47 @@
         <div class="filme-principal">
             <div class="container">
                 <img src="img/filme-logo.png" class="titulo">
-                <p class="descricao">Elliot é um jovem programador que sofre de uma desordem que o torna anti-social. Acreditando que a única forma de se conectar com as pessoas é hackeando suas vidas, ele alia seu conhecimento ao fato de trabalhar em uma empresa de segurança online para proteger aqueles que ele ama daqueles que tentam, de alguma forma, prejudicá-los. Suas atividades chamam a atenção de Mr. Robot, um misterioso anarquista que convida Elliot a fazer parte de uma organização que atua na ilegalidade com o objetivo de derrubar as corporações americanas.</p>
+                <p class="descricao">Elliot é um jovem programador que trabalha como engenheiro de segurança virtual durante o dia, e como hacker vigilante durante a noite. Elliot se vê em uma encruzilhada quando é recrutado para destruir a firma que ele é pago para proteger.</p>
 
                 <div class="botoes">
-                    <button role="button" class="botao" id="play">
-                        <i class="fas fa-play"></i>
-                        Play
-                    </button>
-                    <button role="button" class=botao id="more-info">
-                        <i class="fas fa-info-circle"></i>
-                        More Info
-                    </button>
+                    <a href="#abrir-modal_play">
+                        <button role="button" class="botao" id="play">
+                            <i class="fas fa-play"></i>
+                            Play
+                        </button>
+                    </a>
+                    <a href="#abrir-modal_info">
+                        <button role="button" class=botao id="more-info">
+                            <i class="fas fa-info-circle"></i>
+                            More Info
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
     </main>
+
+    <!-- Modal -->
+    <div id="abrir-modal_play" class="modal">
+        <div>
+            <a href="#fechar" title="Fechar" class="fechar">x</a>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xIBiJ_SzJTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div id="abrir-modal_info" class="modal">
+        <div>
+            <a href="#fechar" title="Fechar" class="fechar">x</a>
+            <img src="img/filme-logo.png" width="200" alt="Mr. Robot">
+            <h3>Informações Técnicas</h3>
+            <p>Gênero: Drama, Thriller Tecnológico, Thriler Psicológico</p>
+            <p>Situação: Finalizado - 4 temporadas</p>
+            <p>Criador(es): Sam Esmail</p>
+            <p>Direto(es): Sam Esmail</p>
+            <p>Produtore(es): Steve Golin, Chad, Hamilton, Igor Srubschchik</p>
+            <h3>Elenco</h3>
+            <p>Rami Malek, Carly, Chaikin, Portia Doubleday, Martin Wallstrom, Christian Slater</p>
+        </div>
+    </div>
 
     <div class="carrosel-filmes">
         <div class="owl-carousel owl-theme">
