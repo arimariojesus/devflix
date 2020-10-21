@@ -63,6 +63,10 @@ header nav a:hover {
     align-items: flex-start;
 }
 
+/* .filme-principal .container {
+    width: 70%;
+} */
+
 .filme-principal .descricao {
     width: 100%;
     margin-top: 10px;
@@ -135,15 +139,14 @@ header nav a:hover {
     -moz-transition: opacity 300ms ease-in;
     transition: opacity 300ms ease-in;
     pointer-events: none;
+    display: flex;
 }
 
 .modal > div {
     position: relative;
-    width: 600px;
-    top: 25%;
-    right: 25%;
-    bottom: 25%;
-    left: 25%;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
     padding: 15px 20px;
     background: rgba(20, 20, 20, .8);
     border-radius: 8px;
