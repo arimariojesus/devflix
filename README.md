@@ -2,8 +2,6 @@
   <img src="./img/logo.jpg" alt="Devflix" />
 </h1>
 
----
-
 ## 💡 About
 
 Devflix is a clone of the famous Netflix streaming service. It was created during my studies to develop the concepts of flexbox and responsiveness, in addition to the use of the jQuery OwlCaroussel plugin.
