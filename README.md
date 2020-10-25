@@ -1,6 +1,6 @@
-<h1 align="center">
+<div align="center">
   <img src="./img/logo.jpg" alt="Devflix" />
-</h1>
+</div>
 
 ---
 
